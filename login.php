@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-if($_SESSION['connexion'] != 'on'){
+if($_SESSION['connexion'] !== 'on'){
 
-    header('Location: connexion.php');
+    header('Location: index.php');
 
 }
 
